@@ -13,6 +13,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var authorLabel: UILabel!
     @IBOutlet weak var descriptionTextView: UITextView!
+    @IBOutlet weak var yearLabel: UILabel!
     
     func configureView() {
         //Update the user interface for the detail item.
@@ -20,6 +21,7 @@ class DetailViewController: UIViewController {
             titleLabel.text = myBook.title
             authorLabel.text = myBook.author
             descriptionTextView.text = myBook.description
+            yearLabel.text = myBook.year
             
         }
     }

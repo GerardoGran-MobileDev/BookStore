@@ -14,6 +14,7 @@ class BookStore {
         var newBook = Book()
         newBook.title = "A Game of Thrones"
         newBook.author = "George R.R. Martin"
+        newBook.year = "1996"
         newBook.description = """
         Long ago, in a time forgotten, a preternatural event threw the seasons out of balance. In a land where summers can last decades and winters a lifetime, trouble is brewing. The cold is returning, and in the frozen wastes to the north of Winterfell, sinister and supernatural forces are massing beyond the kingdom’s protective Wall. At the center of the conflict lie the Starks of Winterfell, a family as harsh and unyielding as the land they were born to. Sweeping from a land of brutal cold to a distant summertime kingdom of epicurean plenty, here is a tale of lords and ladies, soldiers and sorcerers, assassins and bastards, who come together in a time of grim omens.
 
@@ -24,6 +25,7 @@ class BookStore {
         newBook = Book()
         newBook.title = "1984"
         newBook.author = "George Orwell"
+        newBook.year = "1949"
         newBook.description = """
         Among the seminal texts of the 20th century, Nineteen Eighty-Four is a rare work that grows more haunting as its futuristic purgatory becomes more real. Published in 1949, the book offers political satirist George Orwell's nightmarish vision of a totalitarian, bureaucratic world and one poor stiff's attempt to find individuality. The brilliance of the novel is Orwell's prescience of modern life—the ubiquity of television, the distortion of the language—and his ability to construct such a thorough version of hell. Required reading for students since it was published, it ranks among the most terrifying novels ever written.
         """
@@ -32,6 +34,7 @@ class BookStore {
         newBook = Book()
         newBook.title = "Fahrenheit 451"
         newBook.author = "Ray Bradbury"
+        newBook.year = "1953"
         newBook.description = """
         Guy Montag is a fireman. In his world, where television rules and literature is on the brink of extinction, firemen start fires rather than put them out. His job is to destroy the most illegal of commodities, the printed book, along with the houses in which they are hidden.
 
@@ -44,6 +47,7 @@ class BookStore {
         newBook = Book()
         newBook.title = "Ubik"
         newBook.author = "Philip K. Dick"
+        newBook.year = "1969"
         newBook.description = """
         Glen Runciter está muerto. ¿O lo están todos los demás? Lo que es seguro es que alguien ha muerto en una explosión organizada por los competidores de Runciter. De hecho, sus empleados asisten a un funeral. Pero durante el duelo comienzan a recibir mensajes descorcentantes, e incluso morbosos, de su jefe. Y el mundo a su alrededor comienza a desmoronarse de un modo que sugiere que a ellos tampoco les queda mucho tiempo.
 
@@ -54,6 +58,7 @@ class BookStore {
         newBook = Book()
         newBook.title = "The Hobbit"
         newBook.author = "J.R.R. Tolkien"
+        newBook.year = "1937"
         newBook.description = """
         In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.
         Written for J.R.R. Tolkien’s own children, The Hobbit met with instant critical acclaim when it was first published in 1937. Now recognized as a timeless classic, this introduction to the hobbit Bilbo Baggins, the wizard Gandalf, Gollum, and the spectacular world of Middle-earth recounts of the adventures of a reluctant hero, a powerful and dangerous ring, and the cruel dragon Smaug the Magnificent.

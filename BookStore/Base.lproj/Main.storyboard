@@ -120,6 +120,20 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="shg-D6-d7w"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Published: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uBt-lb-Dp1">
+                                <rect key="frame" x="20" y="176" width="80" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYM-Pq-ill" userLabel="yearLabel">
+                                <rect key="frame" x="116" y="175" width="278" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3dI-6B-DES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -129,6 +143,7 @@
                         <outlet property="authorLabel" destination="DKx-9G-pWo" id="JQR-ud-KwD"/>
                         <outlet property="descriptionTextView" destination="5AY-iH-uIz" id="pmY-yd-sDd"/>
                         <outlet property="titleLabel" destination="1Qp-Xq-UZA" id="fgd-bL-Pof"/>
+                        <outlet property="yearLabel" destination="jYM-Pq-ill" id="jen-OL-4RD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3fC-pl-DJN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
