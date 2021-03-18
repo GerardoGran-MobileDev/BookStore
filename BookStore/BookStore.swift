@@ -64,5 +64,9 @@ class BookStore {
         Written for J.R.R. Tolkien’s own children, The Hobbit met with instant critical acclaim when it was first published in 1937. Now recognized as a timeless classic, this introduction to the hobbit Bilbo Baggins, the wizard Gandalf, Gollum, and the spectacular world of Middle-earth recounts of the adventures of a reluctant hero, a powerful and dangerous ring, and the cruel dragon Smaug the Magnificent.
         """
         bookList.append(newBook)
+        
+        bookList = bookList.sorted(by: {$0.title < $1.title})
     }
+    
+    
 }
